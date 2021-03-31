@@ -1,0 +1,16 @@
+//Addition of two numbers.
+#include<iostream>
+using namespace std;
+
+int sum(int a, int b)
+{
+sum=a+b;
+return sum;
+}
+
+int main()
+{
+cout<<"Enter the numbers you want to add :"<<endl; cin>>a; cin>>b;
+cout<<“The sum of two numbers "<<a<<“+“<<b<<“=“<<sum(a,b)<<endl;
+return 0;
+}
